@@ -68,6 +68,10 @@
       border-radius: 10px;
     }
 
+    @media @tablet {
+      width: 85%;
+    }
+
     @media @phone {
       width: 100%;
     }
@@ -79,6 +83,10 @@
     display: flex;
     justify-content: space-between;
 
+    @media @tablet {
+      flex-wrap: wrap;
+    }
+
     @media @phone {
       flex-direction: column;
       align-items: center;
@@ -87,6 +95,10 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
+
+      @media @tablet {
+        width: 46%;
+      }
 
       @media @phone {
         width: 80%;

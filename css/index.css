@@ -1,3 +1,4 @@
+@phone `"(min-width: 500px)";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -254,4 +255,17 @@ hr {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  background-color: #17A2B8;
+  width: 200px;
+  color: white;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 0;
+}
+.home .content-pick .destination .btn:hover {
+  background-color: #148ea1;
 }

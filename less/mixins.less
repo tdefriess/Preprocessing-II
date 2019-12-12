@@ -1,6 +1,15 @@
 // Mixins in here
-.site-button(@bg-color: @button-bg, @width, @font-color: @white){
+.site-button(@bg-color, @width, @font-color){
   background-color: @bg-color;
   width: @width;
   color: @font-color;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 0;
+
+  &:hover {
+    background-color: darken(@bg-color, 5%)
+  }
 }

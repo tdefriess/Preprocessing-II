@@ -1,1 +1,44 @@
 // Navigation Styles here
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  justify-content: space-between;
+  padding-right: 20px;
+
+  @media @phone {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+
+  a {
+    color: black;
+    font-size: 1.8rem;
+    text-decoration: none;
+
+  }
+  .title {
+    font-family: 'Indie Flower', cursive;
+    flex-basis: 55%;
+    font-size: 4rem;
+
+    @media @tablet {
+      flex-basis: 35%;
+    }
+
+    @media @phone {
+      flex-basis: 100%;
+    }
+  }
+}
+
+
+hr {
+  width: 100%;
+  border-style: none;
+  border-bottom: 2px dashed @navigation-border;
+  margin: 0;
+}
